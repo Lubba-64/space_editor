@@ -5,7 +5,7 @@ use bevy_inspector_egui::{inspector_options::ReflectInspectorOptions, InspectorO
 use super::material::try_image;
 
 /// Prefab component that store parameters and asset paths for creating [`StandardMaterial`]
-#[derive(Component, Reflect, Clone, InspectorOptions, Default)]
+#[derive(Component, Reflect, Clone, InspectorOptions, Default, PartialEq)]
 #[reflect(Default, Component, InspectorOptions)]
 pub struct SpriteTexture {
     pub texture: String,
