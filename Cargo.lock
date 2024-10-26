@@ -2234,7 +2234,7 @@ dependencies = [
 
 [[package]]
 name = "editor_as_plugin"
-version = "0.6.1"
+version = "0.6.2"
 dependencies = [
  "bevy",
  "space_editor",
@@ -4861,7 +4861,7 @@ dependencies = [
 
 [[package]]
 name = "space_editor"
-version = "0.6.1"
+version = "0.6.2"
 dependencies = [
  "backtrace-on-stack-overflow",
  "bevy",
@@ -4873,7 +4873,7 @@ dependencies = [
 
 [[package]]
 name = "space_editor_core"
-version = "0.6.1"
+version = "0.6.2"
 dependencies = [
  "bevy",
  "bevy_egui 0.29.0",
@@ -4889,7 +4889,7 @@ dependencies = [
 
 [[package]]
 name = "space_editor_tabs"
-version = "0.6.1"
+version = "0.6.2"
 dependencies = [
  "bevy",
  "bevy_egui 0.29.0",
@@ -4901,7 +4901,7 @@ dependencies = [
 
 [[package]]
 name = "space_editor_ui"
-version = "0.6.1"
+version = "0.6.2"
 dependencies = [
  "anyhow",
  "bevy",
@@ -4927,7 +4927,7 @@ dependencies = [
 
 [[package]]
 name = "space_persistence"
-version = "0.6.1"
+version = "0.6.2"
 dependencies = [
  "bevy",
  "ron",
@@ -4937,7 +4937,7 @@ dependencies = [
 
 [[package]]
 name = "space_prefab"
-version = "0.6.1"
+version = "0.6.2"
 dependencies = [
  "bevy",
  "bevy-inspector-egui",
@@ -4952,7 +4952,7 @@ dependencies = [
 
 [[package]]
 name = "space_shared"
-version = "0.6.1"
+version = "0.6.2"
 dependencies = [
  "anyhow",
  "bevy",
@@ -4965,7 +4965,7 @@ dependencies = [
 
 [[package]]
 name = "space_undo"
-version = "0.6.1"
+version = "0.6.2"
 dependencies = [
  "bevy",
  "pretty-type-name",

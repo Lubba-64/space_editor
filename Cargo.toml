@@ -27,7 +27,7 @@ name = "plugin_test"
 path = "external/editor_as_plugin/src/main.rs"
 
 [workspace.package]
-version = "0.6.1"
+version = "0.6.2"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 authors = ["rewin <rewin1996@gmail.com>", "Julia Naomi <jnboeira@outlook.com>"]
