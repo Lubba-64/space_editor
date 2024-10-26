@@ -1,11 +1,14 @@
 use crate::ext::*;
 use bevy::utils::HashMap;
 use bevy_inspector_egui::{inspector_options::ReflectInspectorOptions, InspectorOptions};
+use serde::{Deserialize, Serialize};
 
 use super::material::try_image;
 
 /// Prefab component that store parameters and asset paths for creating [`StandardMaterial`]
-#[derive(Component, Reflect, Clone, InspectorOptions, Default, PartialEq)]
+#[derive(
+    Component, Reflect, Clone, InspectorOptions, Default, PartialEq, Serialize, Deserialize,
+)]
 #[reflect(Default, Component, InspectorOptions)]
 pub struct SpriteTexture {
     pub texture: String,
